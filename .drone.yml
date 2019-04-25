@@ -11,6 +11,8 @@ steps:
     - name: deps
       path: /go
   commands:
+    - env
+    - ls -lrt /
     - pwd
     - go version
     - go mod download
