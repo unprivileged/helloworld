@@ -13,6 +13,7 @@ steps:
   commands:
     - env
     - ls -lrt /go
+    - ls -lrt /go/*
     - uname -a
     - git version
     - go version
