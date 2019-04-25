@@ -14,6 +14,7 @@ steps:
     - env
     - ls -lrt /
     - pwd
+    - git version
     - go version
     - go mod download
 
