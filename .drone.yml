@@ -48,7 +48,7 @@ steps:
 - name: deploy-production
   image: golang:1
   commands:
-    - echo deploy-production
+    - echo promoted to production
   when:
     event:
       - promote
