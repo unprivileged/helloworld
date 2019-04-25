@@ -18,6 +18,8 @@ steps:
     - git version
     - go version
     - go mod download
+    - ls -lrt /go
+    - ls -lrt /go/*
 
 - name: test
   image: golang:1
