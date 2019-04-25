@@ -11,6 +11,7 @@ steps:
     - name: deps
       path: /go
   commands:
+    - go version
     - go mod download
 
 - name: test
