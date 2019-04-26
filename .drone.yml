@@ -12,14 +12,10 @@ steps:
       path: /go
   commands:
     - env
-    - ls -lrt /go
-    - ls -lrt /go/*
     - uname -a
     - git version
     - go version
     - go mod download
-    - ls -lrt /go
-    - ls -lrt /go/*
 
 - name: test
   image: golang:1
